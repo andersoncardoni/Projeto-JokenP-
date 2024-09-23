@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(0,0,0,0.969625350140056) 21%, rgba(167,167,167,0.9556197478991597) 84%);
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+header .logo-animado {
+    margin: 20px;
+    width: 610px;
+    border-radius: 20px;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+}
+
+article .main-box {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 150px;
+    padding: 30px;
+    width: 400px;
+    height: 400px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: 5px solid #09fc01;
+    margin: 30px;
+}
+
+article .buttons-box {
+    display: flex;
+    gap: 30px;
+    margin: 30px 0;
+}
+
+article button {
+    font-size: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid #03fa03;
+    transition: opacity 0.5s ease-in-out;
+
+}
+
+article button:hover {
+    font-size: 40px;
+    opacity: 0.6;
+}
+
+article .button-z {
+    font-size: 20px;
+    transition: opacity 0.5s ease-in-out;
+    background-color: rgb(153, 151, 151);
+}
+
+article .button-z:hover {
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+article p {
+    padding: 6px;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+article #stone  {
+    background-color: rgb(153, 151, 151);
+}
+
+article #paper {
+    background-color: rgb(153, 151, 151);
+}
+
+article #scissors { 
+    background-color: rgb(153, 151, 151);
+}
+
+article p {
+    padding: 6px;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+article .result {
+    color: brown;
+}
+
+.score-two span, .score-one span {
+    color: #03fa03;
+}
+
+
+
+@media screen and (max-width: 636px) {
+
+    header .logo-animado {
+        width: 300px;
+    }
+
+    article .main-box {
+        width: 300px;
+        height: auto;
+    }
+
+    article button {
+        font-size: 20px
+    }
+
+    
+    article p {
+
+        font-size: 15px;
+    }
+
+    article .button-z {
+        font-size: 15px;
+        height: 70px;
+        font-weight: bold;
+        
+    }
+    
+}
+
+
+
+   
+
+   
